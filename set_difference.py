@@ -1,0 +1,6 @@
+eng_count = int(input())
+eng_roll = set(input().split())
+fre_count = int(input())
+fre_roll = set(input().split())
+eng_only = len(eng_roll - fre_roll)
+print(eng_only)
