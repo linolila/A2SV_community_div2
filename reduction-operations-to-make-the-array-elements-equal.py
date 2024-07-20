@@ -9,3 +9,5 @@ class Solution:
                 cnt += (n - (i + 1))
         
         return cnt
+# space complexity = o(1)
+# time complexity =o(nlogn)
